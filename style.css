@@ -1,0 +1,186 @@
+/* THIS FILE CONTAINS SOME GLOBAL STYLES AS WELL AS STYLES FOR 'index.html' */
+
+/* Globals such as Navbar or Footer */
+
+:root {
+  /* Editing these colours will automatically change colors of whole website */
+  --primary-color: rgb(41, 41, 41);
+  --border-color: #d3d3d3;
+ 
+
+/* Resets & Utils */
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* Navigation Bar */
+
+.top_nav {
+  background-color: #333;
+
+  color: #fff;
+  height: 70px;
+}
+
+.top_nav ul {
+  display: flex;
+}
+
+.top_nav a {
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 1px solid black;
+  color: #fff;
+  padding: 30px;
+}
+
+.top_nav a:hover {
+  /* border-color: aqua; */
+  color: aqua;
+}
+
+.top_nav a .selected {
+  color: aqua;
+}
+
+.top_nav .flex {
+  overflow: hidden;
+  justify-content: space-between;
+}
+
+.logo a {
+  border: none;
+  text-transform: none;
+}
+
+/* Main-Body Styles */
+
+.date-comments-wrapper {
+  border-top: dashed 2px var(--border-color);
+}
+
+.date-comments {
+  margin: 5px 0;
+}
+
+.older_posts {
+  padding: 20px 0;
+  border-top: dashed 2px var(--border-color);
+}
+
+/* Pre-Footer */
+
+.pre-footer {
+  padding: 50px 0px;
+  color: white;
+  background-color: var(--primary-color);
+}
+
+.pre-footer h3 {
+  font-size: 16px;
+}
+
+.popular_post,
+.tweet {
+  border-bottom: dashed 1px var(--border-color);
+  padding: 10px 0;
+}
+
+.tweet-time {
+  color: aqua;
+}
+
+.form-bg {
+  background-color: rgb(29, 29, 29);
+}
+.form-control {
+  border: none;
+}
+
+/* Footer */
+
+footer {
+  color: white;
+  background-color: rgb(20, 20, 20);
+  padding: 20px 0px;
+}
+
+footer .flex {
+  justify-content: space-between;
+}
+
+.footer__social_icons a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer__social_icons > * {
+  border-radius: 2px;
+  padding: 5px 10px;
+  margin: 0px 5px;
+}
+
+/* Footer Icons */
+
+#rss {
+  background-color: #ee802f;
+}
+
+#facebook {
+  background-color: #3b5998;
+}
+
+#twitter {
+  background-color: #00acee;
+}
+
+#pinterest {
+  background-color: #c8232c;
+}
+
+#linkedin {
+  background-color: #0e76a8;
+}
+
+/* Media Query for Responsiveness */
+
+@media (max-width: 1200px) {
+  .top_nav {
+    height: 100%;
+  }
+  .top_nav .flex {
+    flex-direction: column;
+  }
+
+  .top_nav ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .top_nav a {
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid b;
+    color: #fff;
+    margin: 5px 0;
+    padding: 10px 500px;
+  }
+  .top_nav li {
+    margin: 10px 0;
+  }
+}

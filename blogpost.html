@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="blogpost.css">
+    <title>Blog Home</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="top_nav">
+        <div class="container flex">
+          <h1 class="logo"><a href="index.html">MyWebsite</a></h1>
+          <nav>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Service</a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#" class="selected">Blog</a></li>
+              <li><a href="#">About</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+   
+
+    <!-- Body -->
+ <div class="container mt-5 mb-5">
+     <div class="row">
+         <div class="col-md-8 main_body">
+            <div class="row post_info">
+                <div class="col-2 ">
+                    <h2 class="date text-uppercase text-center rounded-circle">
+                        23<br>Jan
+                    </h2>
+                </div>
+                <div class="col-10 post_heading">
+                    <h3>Ridiculus Mattis Lorem Dolor Inceptos</h3>
+                    <p class="text-muted">Posted by <a href="">admin</a> in <a href="">Journal</a>,<a href="">Photography</a>,<a href="">Web Design</a> | <a href="">9 Comments</a></p>
+                </div>
+            </div>
+
+            <!-- Post Section -->
+            <div class="main_body__post">
+                <img class="mt-5" src="https://via.placeholder.com/720x450" height="450" width="720" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum adipisci laborum eligendi similique, quas quaerat quam quia cupiditate quae et consequatur dolor laudantium enim fuga nesciunt doloribus aliquam repudiandae exercitationem!</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus consectetur possimus ab ipsam autem odit totam maiores explicabo! Rem ipsam, ratione tempora voluptatibus dicta accusamus iure saepe architecto tenetur nobis.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ex expedita, reiciendis sint et ullam, consequuntur nobis quos sapiente pariatur a iure, repellendus mollitia ad ipsum sunt ea magnam suscipit.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ex expedita, reiciendis sint et ullam, consequuntur nobis quos sapiente pariatur a iure, repellendus mollitia ad ipsum sunt ea magnam suscipit.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ex expedita, reiciendis sint et ullam, consequuntur nobis quos sapiente pariatur a iure, repellendus mollitia ad ipsum sunt ea magnam suscipit.</p>
+            </div>
+
+            <!-- Related Posts -->
+            <div class="main_body__related_posts mt-5 pb-5">
+                <h3>Related Posts</h3>
+                <div class="row container">
+                    <div class="col-3 related_post">
+                        <img src="https://via.placeholder.com/165x150" class="" width="165" height="150" alt="">
+                    </div>
+                    <div class="col-3 related_post">
+                        <img src="https://via.placeholder.com/165x150"  class="" width="165" height="150" alt="">
+                    </div>
+                    <div class="col-3 related_post">
+                        <img src="https://via.placeholder.com/165x150" class="" width="165" height="150" alt="">
+                    </div>
+                    <div class="col-3 related_post">
+                        <img src="https://via.placeholder.com/165x150"  class="" width="165" height="150" alt="">
+                    </div>
+                </div>
+            </div>
+
+         <!-- Responses or Comments -->
+
+            <div class="main_body__responses mt-5 pb-5">
+                <h4 class="mb-5">2 Responses to "Ridiculus Mattis Lorem Dolor Inceptos"</h4>
+               <div class="responses">
+                   <div class="row">
+                      <div class="col-2">
+                          <img src="https://via.placeholder.com/100x100" height="100" width="100" alt="">
+                      </div>
+                      <div class="col-9 response_text ml-2">
+                        <h3>Barney Stinson</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum quo aliquam quas at nobis, voluptatibus numquam quisquam atque</p>
+                      </div>
+
+                      
+                    </div>
+                      <div class="ml-5">
+                    <div class="row">
+                      <div class="col-2">
+                          <img src="https://via.placeholder.com/100x100" height="100" width="100" alt="">
+                      </div>
+                      <div class="col-9 response_text ml-2">
+                        <h3>Sarah Tancrady</h3>
+                        <p>This is just a dummy body for the comment</p>
+                      </div>
+                    </div>
+                    </div>
+               </div>
+            </div>
+
+            <!-- New Comment Section -->
+
+            <div class="main_body__new_comment mt-5 pb-5">
+                <h5>Submit a Comment</h5>
+                <p>Your email address will not be published. Required fields are marked *</p>
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control form-bg" placeholder="Name *">
+                      </div>
+                    <div class="form-group">
+                      <input type="email" class="form-control form-bg" placeholder="Email *">
+                    </div>
+                    <div class="form-group">
+                      <input type="text" class="form-control form-bg" placeholder="Website">
+                    </div>
+                    <div class="form-group">
+                        
+                          <textarea class="form-control form-bg" rows="5"></textarea>
+                        
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+            </div>
+
+         </div>
+
+
+         
+
+         <!-- SideBar -->
+
+         <div class="col-md-4 sidebar">
+            <div class="popular_posts">
+                <h3>Popular Posts</h3>
+                                <!-- Single Posts -->
+                <div class="card flex-md-row mb-4 box-shadow h-md-250">
+                    <img class="card-img-right flex-auto d-flex d-none" src="https://via.placeholder.com/150">
+                    <div class="card-body d-flex flex-column align-items-start">
+                      <a class="d-inline-block mb-2 font-weight-bold">Bestibum Laesuada Etiam Manga</a>
+                       <p class="text-muted">22 Nov, 2020</p>
+                    </div>
+                  </div>
+
+                  <div class="card flex-md-row mb-4 box-shadow h-md-250">
+                    <img class="card-img-right flex-auto d-flex d-none" src="https://via.placeholder.com/150">
+                    <div class="card-body d-flex flex-column align-items-start">
+                      <a class="d-inline-block mb-2 font-weight-bold">Bestibum Laesuada Etiam Manga</a>
+                       <p class="text-muted">22 Nov, 2020</p>
+                    </div>
+                  </div>
+
+                  <div class="card flex-md-row mb-4 box-shadow h-md-250">
+                    <img class="card-img-right flex-auto d-flex d-none" src="https://via.placeholder.com/150">
+                    <div class="card-body d-flex flex-column align-items-start">
+                      <a class="d-inline-block mb-2 font-weight-bold">Bestibum Laesuada Etiam Manga</a>
+                       <p class="text-muted">22 Nov, 2020</p>
+                    </div>
+                  </div>
+
+            </div>
+
+            <!-- Sidebar Search -->
+            
+            <div class="sidebar__search">
+               <h3>Search</h3>
+               <div class="form-group row">
+                    <div class="col-sm-10">
+                        <input class="form-control form-bg">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sidebar Custom -->
+            <div class="sidebar__custom-text mt-4">
+                <h3>Custom Text</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa animi corrupti incidunt totam distinctio voluptatibus tenetur maxime saepe obcaecati!</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi cumque obcaecati eos distinctio ullam commodi, placeat repudiandae, nisi, voluptates aperiam cupiditate magni. Totam rem sequi recusandae ab culpa tempora maxime!</p>
+            </div>
+         </div>
+     </div>
+ </div>
+
+<!-- Pre-Footer -->
+
+<div class="pre-footer">
+    <div class="container">
+        <div class="row">
+            <!-- Popular Posts -->
+        <div class="col-md-3 d-flex flex-column">
+            <h3 class="font-weight-bold text-uppercase">Popular Posts</h3>
+            <div class="popular_post">
+                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias aperiam provident <br> <span class="text-muted">14 Nov, 2020</span></p>
+                
+            </div>
+            <div class="popular_post">
+                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias aperiam provident <br> <span class="text-muted">14 Nov, 2020</span></p>
+                
+            </div>
+            <div class="popular_post">
+                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias aperiam provident <br> <span class="text-muted">14 Nov, 2020</span></p>
+                
+            </div>
+        </div>
+
+        <!-- Twitter Section -->
+        <div class="col-md-3">
+            <h3 class="font-weight-bold text-uppercase">Twitter</h3>
+            <div class="tweet">
+                <p>
+                    <i class="fa fa-twitter" aria-hidden="true"></i>  Lorem ipsum dolor,
+                    sit amet consectetur adipisicing elit. Consequuntur quam possimus praesentium 
+                    mollitia - <span class="tweet-time"> 21 hours ago</span> 
+                </p>
+            </div>
+            <div class="tweet">
+                <p>
+                    <i class="fa fa-twitter" aria-hidden="true"></i>  Lorem ipsum dolor,
+                    sit amet consectetur adipisicing elit. Consequuntur quam possimus praesentium 
+                    mollitia - <span class="tweet-time"> 21 hours ago</span> 
+                </p>
+            </div>
+            <div class="tweet">
+                <p>
+                    <i class="fa fa-twitter" aria-hidden="true"></i>  Lorem ipsum dolor,
+                    sit amet consectetur adipisicing elit. Consequuntur quam possimus praesentium 
+                    mollitia - <span class="tweet-time"> 21 hours ago</span> 
+                </p>
+            </div>
+            
+
+        </div>
+
+        <!-- About Me Section -->
+        <div class="col-md-3">
+            <h3 class="font-weight-bold text-uppercase">A Little About Me</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi eos ullam quas explicabo corrupti deserunt, consequatur</p>
+            <br>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi eos ullam quas explicabo corrupti deserunt, consequatur</p>
+
+        </div>
+
+        <!-- Contact Form -->
+        <div class="col-md-3">
+            <h3 class="font-weight-bold text-uppercase">Contact Form</h3>
+            <form>
+                <div class="form-group row">
+                    <div class="col-sm-10">
+                      <input class="form-control form-bg">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-sm-10">
+                      <input class="form-control form-bg">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-sm-10">
+                      <textarea class="form-control form-bg" rows="10"></textarea>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-sm-10">
+                     <button class="btn btn-primary" type="submit">Submit</button>
+                    </div>
+                </div>
+                    
+            </form>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- Footer -->
+
+<footer >
+    <div class="container flex">
+        <!-- Footer Text (LEFT)-->
+    <div class="footer__text">
+        &copy; 2020 MyWebsite 
+    </div>
+
+    <!-- Footer Icons (RIGHT) -->
+    <div class="footer__social_icons flex">
+        <a href="#" id="rss">
+            <i class="fa fa-rss" aria-hidden="true"></i>
+        </a>
+        <a href="#"  id="facebook">
+            
+                <i class="fa fa-facebook-official" aria-hidden="true"></i>
+           
+        </a>
+       
+            <a href="#" id="twitter">
+
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+       
+        
+            <a href="#" id="pinterest">
+                
+                <i class="fa fa-pinterest" aria-hidden="true"></i>
+            </a>
+        
+        
+            <a href="#" id="linkedin">
+                
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+        
+    </div>
+</div>
+
+</footer>
+
+</body>
+</html>
